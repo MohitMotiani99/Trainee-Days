@@ -1,0 +1,24 @@
+1.
+
+i. ac stands for charachter array, so this is Hungarian System
+ii. Camel case
+iii. pascel case
+
+Ans: Option 3
+
+
+2.
+
+Ans : Option 4
+Because c does the pre computation for a+b for it does not have to be evaluated again
+
+
+3.
+
+Ans: Option 2
+break function will be used to stop the execution when the answer has been found so as to not waste time
+
+
+4.
+
+Ans: Option 4

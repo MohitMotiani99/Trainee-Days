@@ -1,0 +1,40 @@
+20/7/2021
+Assignment 3:
+
+1.
+
+Work:
+f=0
+i=0
+
+Result:
+0
+
+2.
+
+Result:
+3: char c='A'
+4: byte b=128
+are valid declaration 
+
+3.
+
+Work:
+x=2
+y=1
+
+z=0
+	x=3
+	True
+	x=4
+z=1
+	x=5
+	True
+	x=6
+...
+...
+Similary 
+	x=12 Now
+
+Result:
+12 1

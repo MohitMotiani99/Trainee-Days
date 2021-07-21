@@ -14,7 +14,7 @@ public class Main {
 		
 		// Without Opt
 		startTime=System.nanoTime();
-		for(int i=0;i<count;i++) {
+		for(int i=1;i<count;i++) {
 			int x=i*j*k*l*m*n;
 		}
 		endTime=System.nanoTime();
@@ -24,8 +24,10 @@ public class Main {
 		// With Opt
 		startTime=System.nanoTime();
 		int val=j*k*l*m*n;
-		for(int i=0;i<count;i++) {
-			int x=i*val;
+		int incAmount=val;
+		for(int i=1;i<count;i++) {
+			int x=incAmount;
+			incAmount+=val;
 		}
 		endTime=System.nanoTime();
 		time=endTime-startTime;
@@ -51,6 +53,7 @@ public class Main {
 		System.out.println("Case 2: Without Optimisation Exec Time: "+ time);
 		
 		// With Opt
+		
 		startTime=System.nanoTime();
 		for (int discount = 0; discount < numD; discount++) 
 		{ 

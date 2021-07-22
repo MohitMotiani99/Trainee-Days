@@ -37,13 +37,20 @@ public class Account {
 		return accountBalance;
 	}
 	
-	public void withdraw(int withDrawAmt) {
-		if(accountBalance>=withDrawAmt)
+	public String withdraw(int withDrawAmt) {
+		int bal=this.getAccountBalance();
+		
+		if(bal<withDrawAmt)
+			return "Account Has Insufficient Balance";
+		else {
 			accountBalance-=withDrawAmt;
+			return "Final Balance is Rs. "+getAccountBalance();
+		}
 	}
 	
-	public void deposit(int depositAmt) {
+	public String deposit(int depositAmt) {
 		accountBalance+=depositAmt;
+		return "Final Balance is Rs. "+getAccountBalance();
 	}
 	
 }

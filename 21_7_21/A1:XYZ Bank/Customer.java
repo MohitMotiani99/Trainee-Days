@@ -47,17 +47,7 @@ public class Customer {
 		return "This is a "+account.getAccountName()+" type account and the current Balance is Rs. "+account.getAccountBalance();
 	}
 	
-	public String withdraw(int withdrawAmt) {
-		int bal=account.getAccountBalance();
-		account.withdraw(withdrawAmt);
-		if(bal==account.getAccountBalance())
-			return "Account Has Insufficient Balance";
-		else
-			return "Final Balance is Rs. "+account.getAccountBalance();
-	}
-	
-	public String deposit(int depositAmt) {
-		account.deposit(depositAmt);
-		return "Final Balance is Rs. "+account.getAccountBalance();
+	public Account getAccount() {
+		return account;
 	}
 }

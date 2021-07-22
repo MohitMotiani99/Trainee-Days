@@ -50,12 +50,12 @@ public class BankMain {
 			case 2:
 				System.out.println("Enter Amount to be Withdrawn: ");
 				int amt=sc.nextInt();
-				System.out.println(customer.withdraw(amt));
+				System.out.println(customer.getAccount().withdraw(amt));
 				break;
 			case 3:
 				System.out.println("Enter Amount to be Deposited: ");
 				amt=sc.nextInt();
-				System.out.println(customer.deposit(amt));
+				System.out.println(customer.getAccount().deposit(amt));
 				break;
 			case 4:
 				System.out.println(customer.accountDetails());

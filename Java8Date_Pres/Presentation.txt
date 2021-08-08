@@ -1,0 +1,69 @@
+28/7/2021(Wednesday) : 
+
+Topics: 
+1. Recursion with any  sorting algorithm  and seraching algorithm discussed in class
+
+1.Ojasvi
+2. Pragathi
+3. Mohit G.
+
+
+2. String Builder, String Buffer, and
+
+1. Mayur
+2. Raghavendra Ganapathi
+
+3.  Java8 date functions
+
+1. Mohit M.
+2. Raghavendra J.
+
+
+----------------------------------------------------
+29/7/2021(Thrusday)
+
+Topics:  
+
+1.DDL and DML statements
+1.  Niranjan
+2.  Aishshrith
+
+2. DQL  --> single row functions and multirow : groupby with having clasue
+
+1. Anikeeth
+2. Ayush
+3. Gurkirat
+
+
+3. DQL ----> Joins and sets
+
+1. Abhijeeth
+2. Chinmay
+3. Hirtika
+----------------------------------------------------------------
+30/7/2021 (Friday)
+
+Topics:
+
+Binary Tree and Red-Black tree
+
+1. Rohit
+2. Neha
+3. Chirag
+4. Mohit M.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

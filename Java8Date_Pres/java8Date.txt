@@ -1,0 +1,82 @@
+
+BASIC NOTES AND DEFINATIONS
+
+Why these classes dont have constructor????
+
+The typical pattern here is a class with only private or package default constructors, 
+combined with a factory method that is either a public static method of the class or a 
+method of an accompanying factory class. You get LocalDate objects from many static methods 
+listed in the javadoc.
+
+The designers of the API decided to create static methods to instantiate LocalDates 
+because they can have more clear names on what is actually instantiated 
+(like "now()" above to create a LocalDate for the current date)
+
+
+Temporal Adjusters extends Objects
+
+This class contains a standard set of adjusters, available as static methods. These include:
+
+finding the first or last day of the month
+finding the first day of next month
+finding the first or last day of the year
+finding the first day of next year
+finding the first or last day-of-week within a month, such as "first Wednesday in June"
+finding the next or previous day-of-week, such as "next Thursday"
+
+I Temporal Accessor
+
+Framework-level interface defining read-only access to a temporal object, such as a date, 
+time, offset or some combination of these.
+This is the base interface type for date, time and offset objects. 
+It is implemented by those classes that can provide information as fields or queries.
+
+I Temporal
+
+Framework-level interface defining read-write access to a temporal object, 
+such as a date, time, offset or some combination of these.
+This is the base interface type for date, time and offset objects that are complete 
+enough to be manipulated using plus and minus. 
+It is implemented by those classes that can provide and manipulate information as 
+fields or queries
+
+I ChronoLocalDate
+
+A ChronoLocalDate is the abstract representation of a date where the 
+Chronology chronology, or calendar system, is pluggable
+
+I ChronoLocalDateTime
+
+A ChronoLocalDateTime is the abstract representation of a local date-time where 
+the Chronology chronology, or calendar system, is pluggable
+
+I ChronoZonedDateTime
+
+A ChronoZonedDateTime is the abstract representation of an offset date-time 
+where the Chronology chronology, or calendar system, is pluggable
+
+
+I TemporalFields
+
+Date and time is expressed using fields which partition the time-line into 
+something meaningful for humans. Implementations of this interface represent those fields.
+
+Enum ChronoField
+
+This set of fields provide field-based access to manipulate a date, time or date-time
+
+LocalDate
+
+A date without a time-zone in the ISO-8601 calendar system, such as 2007-12-03.
+
+LocalDateTime
+
+A date-time without a time-zone in the ISO-8601 calendar system, such as 2007-12-03T10:15:30
+
+ZonedDateTime
+
+A date-time with a time-zone in the ISO-8601 calendar system, such as 2007-12-03T10:15:30+01:00 Europe/Paris.
+
+OffsetDateTime
+
+A date-time with an offset from UTC/Greenwich in the ISO-8601 calendar system, such as 2007-12-03T10:15:30+01:00.

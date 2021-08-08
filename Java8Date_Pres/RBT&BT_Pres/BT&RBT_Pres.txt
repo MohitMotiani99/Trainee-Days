@@ -1,0 +1,36 @@
+RED BLACK TREES CONTENT RESORCES
+Mohit Motiani
+
+Slides
+
+-BST
+-Balanced Tree
+-What is RBT & Why??
+-Rotations demo
+-Rules
+-Example
+-RBT Steps of insertion
+-Insertion Steps with Example
+
+Resources
+
+What & Why
+https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
+
+Rules
+BST
+https://www.youtube.com/watch?v=nMExd4DthdA
+
+BST
+https://www.cs.usfca.edu/~galles/visualization/BST.html
+
+Rotations
+https://www.cs.usfca.edu/~galles/visualization/AVLtree.html
+
+Insertion steps
+https://www.geeksforgeeks.org/red-black-tree-set-2-insert/
+https://www.youtube.com/watch?v=qA02XWRTBdw
+
+RBT
+https://www.cs.usfca.edu/~galles/visualization/RedBlack.html
+
